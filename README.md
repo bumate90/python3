@@ -1,0 +1,1 @@
+Contains a series of exercises, examples to get familiar with Python3.7
