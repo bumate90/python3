@@ -1,0 +1,62 @@
+#############################################################################
+#                                  PACKAGES                                 #
+#############################################################################
+
+#1. pip python package manager
+bumate90@bumate90-Mint-VM:~/Desktop$ pip -V
+pip 9.0.1 from /usr/lib/python2.7/dist-packages (python 2.7)
+bumate90@bumate90-Mint-VM:~/Desktop$ pip3 -V
+pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+bumate90@bumate90-Mint-VM:~/Desktop$ python --version
+Python 2.7.15+
+bumate90@bumate90-Mint-VM:~/Desktop$ python3 --version
+Python 3.6.8
+bumate90@bumate90-Mint-VM:~/Desktop$ python3.7 --version
+Python 3.7.9
+
+#2. display package details
+bumate90@bumate90-Mint-VM:~/Desktop$ pip3 show lxml
+Name: lxml
+Version: 4.6.3
+Summary: Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.
+Home-page: https://lxml.de/
+Author: lxml dev team
+Author-email: lxml-dev@lxml.de
+License: BSD
+Location: /home/bumate90/.local/lib/python3.6/site-packages
+Requires: 
+
+#3. install/uninstall
+pip install/uninstall <package_name>
+
+#4. display installed packages and their versions
+bumate90@bumate90-Mint-VM:~/Desktop$ pip freeze
+astroid==1.6.0
+backports.functools-lru-cache==1.4
+configobj==5.0.6
+configparser==4.0.2
+entrypoints==0.3
+enum34==1.1.10
+flake8==3.7.9
+functools32==3.2.3.post2
+futures==3.2.0
+isort==4.3.4
+lazy-object-proxy==1.3.1
+logilab-common==1.4.1
+lxml==4.6.3
+mccabe==0.6.1
+pycairo==1.16.2
+pycodestyle==2.5.0
+pycrypto==2.6.1
+pyfiglet==0.8.post1
+pyflakes==2.1.1
+pygobject==3.26.1
+Pympler==0.8
+python-apt==1.6.4
+python-xlib==0.20
+pyxdg==0.25
+setproctitle==1.1.10
+singledispatch==3.4.0.3
+six==1.11.0
+typing==3.7.4.1
+wrapt==1.9.0
